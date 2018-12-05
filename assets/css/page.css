@@ -1,0 +1,88 @@
+/*------------------------------------*\
+    Common
+\*------------------------------------*/
+
+/* page-heading */
+.page-heading{
+	padding-top: 224px;
+	padding-bottom: 160px;
+	background-position: center;
+}
+.page-heading .heading{
+	text-align: center;
+}
+.page-heading .heading:after{
+	content: "";
+	position: absolute;
+	bottom: -32px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 64px;
+	height: 4px;
+	background-color: #6772e5;
+}
+
+/*------------------------------------*\
+    About
+\*------------------------------------*/
+.page-about .story{
+	text-align: justify;
+}
+/* timeline */
+.timeline .line{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100%;
+	width: 4px;
+	background-color: #3ecf8e;
+	border-radius: 2px;
+}
+.timeline-row{
+	display: flex;
+}
+.timeline-row:nth-child(odd){
+	justify-content: flex-start;
+}
+.timeline-row:nth-child(even){
+	justify-content: flex-end;
+}
+.timeline-row .timeline-item:after{
+	content: "";
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #3ecf8e;
+	position: absolute;
+	right: -36px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.timeline-row:nth-child(odd) .timeline-item:after{
+	right: -36px;
+}
+.timeline-row:nth-child(even) .timeline-item:after{
+	left: -36px;
+}
+.timeline-item{
+	width: calc(50% - 32px);
+	padding: 32px;
+}
+.timeline-item .heading{
+	color: #3ecf8e;
+	margin-bottom: 8px;
+	font-size: 24px;
+}
+
+
+/*------------------------------------*\
+    Products
+\*------------------------------------*/
+.page-project .projects-group .card{
+	margin-bottom: 32px;
+}
+.projects-group{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}

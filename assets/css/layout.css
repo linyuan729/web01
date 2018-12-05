@@ -1,0 +1,27 @@
+.wrapper{
+	overflow: hidden;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 500;
+}
+
+/*Masonry*/
+.ma-grid-item{
+	width: calc(100% / 6);
+	padding-left: 16px;
+	padding-right: 16px;
+}
+@media (max-width: 768px){
+	.ma-grid-item{
+		width: 25%
+	}
+}
+@media (max-width: 576px){
+	.ma-grid-item{
+		width: 50%
+	}
+}

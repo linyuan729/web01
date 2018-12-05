@@ -1,0 +1,132 @@
+/* common */
+
+/* about */
+.index-about .intro{
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+.index-about .heading{
+	font-size: 34px;
+	font-weight: 300;
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+}
+.index-about .heading:after{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 40px;
+	height: 4px;
+	background-color: #40e0d0;
+}
+.index-about .para{
+	margin-bottom: 24px;
+}
+
+/* mywork */
+.index-mywork{
+	background-image: url('../images/bg/bg002.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.index-mywork .col-lg-4{
+	padding-bottom: 48px;
+}
+.index-mywork .card{
+	padding: 40px;
+	text-align: center;
+}
+.index-mywork .icon{
+	font-size: 64px;
+	color: #6772E5;
+}
+.index-mywork .heading{
+	color: #6772E5;
+	margin-bottom: 24px;
+}
+.index-mywork .btn-group{
+	margin-top: 48px;
+}
+
+/* project */
+.index-project .project-item{
+	margin-bottom: 160px;
+}
+.index-project .project-item:last-child{
+	margin: 0;
+}
+.index-project .intro{
+	padding-top: 144px;
+}
+.index-project .heading{
+	font-size: 48px;
+	font-weight: 300;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-shadow: 2px 10px 8px rgba(103,114,229,0.25);
+}
+.index-project .heading.heading--left{
+	left: -64px;
+}
+.index-project .heading:after{
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 64px;
+	height: 4px;
+	background-color: #6772E5;
+}
+.index-project .para{
+	margin-bottom: 24px;
+}
+
+/* designer */
+.index-designer .designer{
+	padding: 48px;
+	text-align: center;
+}
+.index-designer .avatar{
+	margin-bottom: 16px;
+}
+.index-designer .heading{
+	margin-bottom: 16px;
+	color: #40e0d0;
+}
+.index-designer .para{
+	margin-bottom: 16px;
+}
+
+/* quote */
+.index-quote{
+	text-align: center;
+}
+.index-quote .fa{
+	color: #6772E5;
+	font-size: 48px;
+	margin-bottom: 32px;
+}
+
+/* contact */
+.index-contact{
+	text-align: center;
+	background-image: url('../images/bg/bg003.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.index-contact .heading{
+	margin-bottom: 16px;
+}
+.index-contact .para{
+	margin-bottom: 32px;
+}
+.index-contact .form{
+	max-width: 320px;
+	margin: 0 auto;
+}
